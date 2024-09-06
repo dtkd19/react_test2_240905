@@ -45,8 +45,8 @@ const Comp3 = () => {
             <br /><br /><br /><hr />
 
             {/* id/pw 입력받고 전송버튼을 클릭하여 Param3.jsx에 출력 */}
-            <input type="text" name='id' value={id} onChange={paramInput} />
-            <input type="text" name='pw' value={pw} onChange={paramInput2}/>
+            <input type="text" name='id' onChange={paramInput} />
+            <input type="text" name='pw' onChange={paramInput2}/>
             <Link to={`/param3/${id}/${pw}`}>id/pw 전송</Link>
 
 
