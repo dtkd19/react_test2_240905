@@ -14,6 +14,9 @@ const Counter = () => {
     }
 
 
+    
+
+
     return (
         <div className='count'>
             <h1>{count}</h1>
